@@ -14,4 +14,4 @@ def index():
     return render_template('index.html', name=peso)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host=('191.252.178.80'), port=None)
